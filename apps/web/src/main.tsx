@@ -1,14 +1,16 @@
-import { StrictMode } from "react"
+
 import { createRoot } from "react-dom/client"
 
 import "@workspace/ui/globals.css"
-import { App } from "./App.tsx"
+import { App } from "./App.jsx"
 import { ThemeProvider } from "@/components/theme-provider.tsx"
+import { ChatProvider } from "./context.jsx"
 
 createRoot(document.getElementById("root")!).render(
-  <StrictMode>
-    <ThemeProvider>
+
+  <ThemeProvider>
+    <ChatProvider>
       <App />
-    </ThemeProvider>
-  </StrictMode>
+    </ChatProvider>
+  </ThemeProvider>
 )
