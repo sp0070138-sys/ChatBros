@@ -34,7 +34,7 @@ function Header(){
 
                             <DropdownMenuItem className= "text-xs cursor-pointer" variant="destructive"><Trash className = "w-4" />Clear chats</DropdownMenuItem>
                         </DropdownMenuContent>
-                    </DropdownMenu>s
+                    </DropdownMenu>
                 </div>
             </div>
         </>
