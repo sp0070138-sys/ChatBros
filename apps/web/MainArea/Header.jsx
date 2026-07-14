@@ -33,7 +33,7 @@ function Header(){
                             <DropdownMenuSeparator></DropdownMenuSeparator>
 
                             <DropdownMenuItem className= "text-xs cursor-pointer" variant="destructive"><Trash className = "w-4" />Clear chats</DropdownMenuItem>
-                        </DropdownMenuContent>
+                        </DropdownMenuContent>s
                     </DropdownMenu>
                 </div>
             </div>
